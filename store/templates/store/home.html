@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gekka Bijin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://cloudflare.com" rel="stylesheet"> -->
     <link rel="stylesheet" href="../../static/store/css/style.css">
 </head>
 <body>
     <!-- marquee section -->
 
     <!-- 2nd try -->
-     <div class="marquee-indiviudal-content-container">
+    <div class="marquee-indiviudal-content-container">
         <ul>
             <li>Gakka Bijin</li>
             <li>New Collection Blooming Soon</li>
@@ -55,8 +57,6 @@
      </div>
     <!-- end of marquee section -->
 
-    `
-
     <!-- navigation bar section -->
         <nav>
             <div id="navigation-container">
@@ -71,7 +71,7 @@
                     <li><a class="borderless-button" href="#">Home</a></li>
                     <li><a class="borderless-button" href="#">Products</a></li>
                     <li>
-                        <button class="nav-drop-down-button">Explore </button>
+                        <button class="nav-drop-down-button">Explore <i class="fa-solid fa-angle-down angle-down-icon"></i> </button>
                         <!-- <ul class="drop-down-explore">
                             <li><a href="#">Shoes</a></li>
                             <li><a href="#">Shirts/tops</a></li>
@@ -86,28 +86,30 @@
                 </ul>
 
                 <!-- search bar section for navigation bar -->
-                <div class="search-bar">
-                    <span class="search-icon">&#128269;</span>
-                    <input type="text" placeholder="Search by Collections" id="search-bar">
+                <div id="search-bar-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input ghe=type="text" placeholder="Search by Collections" id="search-bar">
                 </div>
                 
                 <!-- end of search bar section for navigation bar -->
                 
                 <!-- navitation login and sign in button -->
-                <button id="login-button">Log in</button>
-                <button id="signin-button">Sign in</button>
+                <button class="white-button">Log in</button>
+                <button class="black-button">Sign in</button>
             </div>
         </nav>
     <!-- ending of navigation bar section -->
-------------------------------------------------------------------------------------------------------------------
+
+
+
     <!-- hero section -->
      <div class = "hero-section">
         <p>Created by Ankit Ale</p>
         <h1>The Queen of the Night</h1>
         <p>The collection display of variety of Fashion Trend</p>
-        <div class="hero-button">
-            <button>Explore Now</button>
-            <button>Show New Arrivals</button>
+        <div id="hero-section-button">
+            <button class="white-button">Explore Now</button>
+            <button class="black-button">Show New Arrivals</button>
         </div>
     </div>
 

@@ -5,13 +5,15 @@
     font-size: 16px;
     background-color: white;
     color: black;
+    box-sizing: border-box;
     /* gap: 0px; */
 }
 
 :root {
   --main-white: rgb(255, 255, 255);
   --main-black: rgb(0, 0, 0);
-  --low-opacity-black: rgb(24, 24, 24);
+  --low-opacity-black: rgba(0, 0, 0, 0.60);;
+  --low-opacity-border: rgba(0, 0, 0, 0.70);
   --hover-white: #f5f5f5;
   --hover-black: #121212;
   --button-yellow: yellow;
@@ -22,6 +24,9 @@ body {
     margin: 0;
     padding: 0;
     width: 1440 px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 
 
@@ -52,45 +57,35 @@ body {
         transform: translateX(-100%);
     }
 }
-
-.logo-image {
-    display: flex;
-    width: 160px;
-    align-items: center;
-    gap: 12px;
-    }
-
+    
+/* navigation section */
 nav{
     height: 70px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 8px 0px;
     width: 1440px;
-    background-color: red;
     display: flex;
     justify-content: center;
 }
 
 #navigation-container{
-    /* width: 1208px; */
+    font-size: 14px;
+    font-weight: 500;
     width: 1208px;
-    height: 62px;
-    height: 100%;
-    background-color: yellow;
+    height: 54px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 8px;
 }
 
+/* logo section */
 .logo-image{
     height: 100%;
-    width: 144px;
+    width: 130px;
     display: flex;
-    /* align-items: center; */
-    /* align-items: ; */
-    /* justify-content: space-between; */
-    gap: 12px;
-    /* flex-shrink: 0; */
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-image img {
@@ -98,49 +93,146 @@ nav{
     width: auto;    
 }
 
+/* link section */
+.nav-links {
+    height: 54px;
+    /* height: 100%; */
+    /* width: auto; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
 
-
-.nav-links li a{
-    text-decoration: none;
-    font-size: 16px;
+.nav-links li{
+    display: flex;
     padding: 18px 8px;
-    height: 100%;
-    width:auto
+    list-style-type:none;
+    text-align: center;
+    align-items: center;
+    height: 54px;
+    width: auto;
+}
 
-    /* text-align: center; */
+.borderless-button{
+    text-align: center;
+    text-decoration: none;
+    /* height: 100%; */
 }
 
 .nav-drop-down-button{
+    font-weight: 500;
     border: none;
-    box-sizing: content-box;
-    padding: 8px 24px 8px 18px;
     height: 100%;
-    width:auto;
+}
+
+/* search bar section */
+#search-bar-container{
+    width: 430px;
+    height: 30px;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    flex: 1 0 0;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+
+#search-bar-container > i{
+    height: 12px;
+    width: 12px;
+}
+
+.search-icon {
+    font-size: 12px;
+    fill: rgba(0, 0, 0, 0.50);
+    aspect-ratio: 1/1;
+    flex: 0 0 auto;
+}
+
+#search-bar-container > input{
+    border: var(--low-opacity-border);
+    /* font-family: Outfit; */
+    font-size: 10px;
+    font-weight: 300;
+    border: none;
+    flex: 1;
+    
 }
 
 
-
-.navigation-container button{
+/* navigation button section */
+#navigation-container > button, #hero-section-button > button{
+    height: 34px;
     padding: 8px 18px;
     border-radius: 10px;
+    text-align: center;
+    justify-content: center;
     gap: 10px;
     cursor: pointer;
 }
 
-#login-button{
-    background-color: var(--main-white);
-    border: var(--main-black) 1px solid;
-    color: var(--main-black);
+.white-button{
+    /* background-color: var(--main-white); */
+    border: 1px solid var(--low-opacity-border);
+    /* color: var(--main-black); */
 
 }
 
-#signin-button{
+.black-button{
     background-color: var(--main-black);
     border: var(--main-black) 1px solid;
     color: var(--main-white);
 
 }
 
-.nav-links {
+/* ----------------------------------------------------------------------- */
+
+/* follow section */
+
+
+
+
+/* ----------------------------------------------------------------------- */
+
+/* hero section */
+.hero-section{
+    width: 100%;
+    height: 549px;
+    align-items: center;
+    gap: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section p{
+    color: var(--low-opacity-black);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.hero-section h1{
+    color: var(--main-black);
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.04px;
+}
+
+#hero-section-button{
+    display: flex;
+    padding: 8px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
 }
