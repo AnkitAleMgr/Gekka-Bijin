@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    /* gap: 0px; */
+}
+
+:root {
+  --main-white: rgb(255, 255, 255);
+  --main-black: rgb(0, 0, 0);
+  --low-opacity-black: rgb(24, 24, 24);
+  --hover-white: #f5f5f5;
+  --hover-black: #121212;
+  --button-yellow: yellow;
+  --button-hover-yellow: #fffb24;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440 px;
+}
+
+
+.marquee-indiviudal-content-container {
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    user-select: none;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marquee-indiviudal-content-container ul {
+    display: flex;
+    padding-right: 24px;
+    list-style: none;
+    flex-shrink: 0;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    animation: scroll 7s linear infinite;
+}
+
+@keyframes scroll{
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logo-image {
+    display: flex;
+    width: 160px;
+    align-items: center;
+    gap: 12px;
+    }
+
+nav{
+    height: 70px;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    width: 1440px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#navigation-container{
+    /* width: 1208px; */
+    width: 1208px;
+    height: 62px;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image{
+    height: 100%;
+    width: 144px;
+    display: flex;
+    /* align-items: center; */
+    /* align-items: ; */
+    /* justify-content: space-between; */
+    gap: 12px;
+    /* flex-shrink: 0; */
+
+}
+
+.logo-image img {
+    height: 35px;
+    width: auto;    
+}
+
+
+
+.nav-links li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 18px 8px;
+    height: 100%;
+    width:auto
+
+    /* text-align: center; */
+}
+
+.nav-drop-down-button{
+    border: none;
+    box-sizing: content-box;
+    padding: 8px 24px 8px 18px;
+    height: 100%;
+    width:auto;
+}
+
+
+
+.navigation-container button{
+    padding: 8px 18px;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#login-button{
+    background-color: var(--main-white);
+    border: var(--main-black) 1px solid;
+    color: var(--main-black);
+
+}
+
+#signin-button{
+    background-color: var(--main-black);
+    border: var(--main-black) 1px solid;
+    color: var(--main-white);
+
+}
+
+.nav-links {
+    display: flex;
+}
