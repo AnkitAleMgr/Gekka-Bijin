@@ -164,12 +164,13 @@ nav{
 
 
 /* navigation button section */
-#navigation-container > button, #hero-section-button > button{
+#navigation-container > button, #hero-section-button > button, .follow-first-section > button{
     height: 34px;
     padding: 8px 18px;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     cursor: pointer;
 }
@@ -191,6 +192,31 @@ nav{
 /* ----------------------------------------------------------------------- */
 
 /* follow section */
+
+#follow-section{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.follow-section-container{
+    display: flex;
+    height: 100%;
+    width: 1208px;
+    /* padding-top: 8px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-first-section{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 
 
