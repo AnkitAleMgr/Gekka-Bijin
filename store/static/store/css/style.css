@@ -43,12 +43,20 @@ body {
     letter-spacing: 1px;
 }
 
-.paragraph{
+.low-paragraph{
     font-size: 16px;
     font-style: normal;
     font-weight: 5600;
     line-height: normal;
     opacity: 50%;
+}
+
+.normal-paragraph{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 5600;
+    line-height: normal;
+    /* opacity: 50%; */
 }
 
 .white-button{
@@ -472,6 +480,70 @@ nav{
     height: 100%;
     object-fit:cover;
 }
+
+/* ----------------------------------------------------------------------- */
+
+.variety-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: red;
+}
+
+.paragraph-like{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.individual-variety-container{
+    display: flex;
+    width: 340px;
+    padding: 24px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    background-color: blue;
+}
+
+.individual-variety-container > img{
+    height: 500px;
+    align-self: stretch;
+}
+
+/* .star-shop-button{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 0px 10px;
+    gap: 32px;
+} */
+
+.individual-variety-container > div,p{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 0px 10px;
+    gap: 32px;
+}
+
+.star-shop-button > *{
+    flex: 1;
+}
+
+.star-container{
+    display: flex;
+    gap: 0px; 
+}
+
 
 
 /* ----------------------------------------------------------------------- */
