@@ -344,6 +344,10 @@ nav{
 
 /* ----------------------------------------------------------------------- */ 
 
+
+
+
+/* ----------------------------------------------------------------------- */ 
 /* new arrival section */
 #new-arrival-section{
     width: 100%;
@@ -599,4 +603,91 @@ footer{
     flex: 1 0 0;
 }
 
+.social-icon-container{
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+    justify-content: left;
+    align-items: center;
+    gap: 12px
+}
 
+.social-icon-container a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon-container a img{
+    /* height: 100%; */
+    width: 24px;
+    height: 24px;
+    aspect-ratio: 1/1;
+    /* width: 100%; */
+}
+
+.footer-card-detail-2nd-section{
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    gap: 30px;
+}
+.footer-card-detail-2nd-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-card-detail-2nd-section div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.link{
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sub-link{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    /* gap: 10px; */
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.footer-copyright-and-links{
+    /* background-color: red; */
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    /* align-self: stretch; */
+
+    border-top: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.footer-privacy-term-cookies-container{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-privacy-term-cookies-container{
+    color: #000;
+    font-family: "Bai Jamjuree";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+
+/* ----------------------------------------------------------------------- */
