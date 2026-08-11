@@ -63,6 +63,9 @@ body {
 }
 
 .white-button{
+    display: flex;
+    white-space: nowrap;
+    width: fit-content;
     background-color: var(--main-white);
     border: 1px solid var(--low-opacity-border);
     /* color: var(--main-black); */
@@ -206,7 +209,8 @@ nav{
     height: 70px;
     /* box-sizing: border-box; */
     padding: 8px 0px;
-    width: 1440px;
+    letter-spacing: 0;
+    width: 100%px;
     display: flex;
     justify-content: center;
 }
@@ -947,3 +951,85 @@ footer{
 }
 
 /* ----------------------------------------------------------------------- */
+
+
+
+#product-hero-section{
+    /* justify-content: start; */
+    align-items: start;
+    height: auto;
+    padding: 64px 116px;
+    
+}
+
+#product-hero-section > *{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+}
+
+
+#sort-section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 16px 116px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 0.5px solid rgba(0, 0, 0, 0.40);
+}
+
+#sort-section > *{
+    font-size: 14px;
+}
+
+#product-body-section{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 0 116px;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    background-color: green;
+}
+
+#product-right-pannel{
+    background-color: rgb(159, 207, 63);
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    height: stretch;
+    gap: 14px;
+}
+
+.product-right-pannel-drop-block {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(185, 251, 86);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.pannel-drop-block-icon-name{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(218, 255, 164);
+    display: flex;
+    gap: 8px;
+}
+
+
+
+#all-prodict-pannel{
+    background-color: rgb(92, 133, 8);
+    flex: 1;
+    height: stretch;
+}
+
