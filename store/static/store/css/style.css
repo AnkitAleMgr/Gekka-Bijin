@@ -990,7 +990,7 @@ footer{
 #product-body-section{
     display: flex;
     width: 100%;
-    height: 600px;
+    height: 800px;
     padding: 0 116px;
     justify-content: center;
     align-items: flex-start;
@@ -1004,7 +1004,15 @@ footer{
     flex-direction: column;
     flex: 0 0 20%;
     height: stretch;
-    gap: 14px;
+    /* gap: 14px; */
+    /* justify-content: space-between; */
+}
+
+#product-right-pannel div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .product-right-pannel-drop-block {
@@ -1012,9 +1020,14 @@ footer{
     height: fit-content;
     background-color: rgb(185, 251, 86);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 8px;
     align-items: center;
+}
+
+.product-right-pannel-drop-block > i{
+    background-color: rgb(219, 253, 167);
 }
 
 .pannel-drop-block-icon-name{
@@ -1022,7 +1035,14 @@ footer{
     height: fit-content;
     background-color: rgb(218, 255, 164);
     display: flex;
+    align-items: center;
     gap: 8px;
+}
+
+.pannel-drop-block-icon-name > img{
+    width: 25px;
+    height: auto;
+    aspect-ratio: 1/1;
 }
 
 
