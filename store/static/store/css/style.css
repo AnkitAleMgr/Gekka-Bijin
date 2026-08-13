@@ -1099,7 +1099,8 @@ footer{
     align-items: center;
     gap: 5px;
     
-    background-color: rgb(219, 247, 178);
+    background-color: white;
+    border-radius: 10px;
 }
 
 .individual-product-card-container > img{
@@ -1113,35 +1114,77 @@ footer{
 }
 
 .individual-product-card-container p:nth-child(2){
-    color: rgba(0, 0, 0, 0.60);
-    /* font-family: "Bai Jamjuree"; */
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.9px;
+    font-size: 8px;
+    opacity: 60%;
 }
-
 .individual-product-card-container p:nth-child(3){
-    color: rgba(0, 0, 0, 0.70);
-    /* font-family: Outfit; */
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-size: 12px;
 }
 
+/* 
 .price-quantity-container{
     display: flex;
-    width: stretch;
 }
-.price-quantity-container div{
-    flex: 1;
+.price-container{
     display: flex;
 }
-.price-quantity-container div:nth-child(1){
-    background-color: rgb(205, 252, 134);
+.price-container p{
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.price-container p:nth-child(3){
+    font-size: 6px;
+    text-decoration: dashed;
+}
+
+.available-container{
+    display: flex;
+}
+.available-container p{
+    white-space: nowrap;
+    padding: 0px;
+    margin: 0px;
+    font-size: 8px;
+}
+ */
+
+.color-rating-container{
+    display: flex;
+    width: 100%;
+}
+
+.color-icon-container > img{
+    width: 8px;
+    height: auto;
+}
+.star-icon-container{
+    display: flex;
+    flex: 1;
+    height: auto;
+}
+.star-icon-container > img{
+    width: 18px;
+    height: auto;
 }
 
 
+.product-button-container{
+    display: flex;
+    gap: 8px;
+}
 
+.product-button-container button{
+    flex: 1;
+    text-align: center;
+    font-size: 8px;
+    display: flex;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 4px;
+}
