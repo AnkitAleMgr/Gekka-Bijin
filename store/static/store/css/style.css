@@ -1102,3 +1102,46 @@ footer{
     background-color: rgb(219, 247, 178);
 }
 
+.individual-product-card-container > img{
+    display: flex;
+    width: 140px;
+    height: 186px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    aspect-ratio: 70/93;
+}
+
+.individual-product-card-container p:nth-child(2){
+    color: rgba(0, 0, 0, 0.60);
+    /* font-family: "Bai Jamjuree"; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.individual-product-card-container p:nth-child(3){
+    color: rgba(0, 0, 0, 0.70);
+    /* font-family: Outfit; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.price-quantity-container{
+    display: flex;
+    width: stretch;
+}
+.price-quantity-container div{
+    flex: 1;
+    display: flex;
+}
+.price-quantity-container div:nth-child(1){
+    background-color: rgb(205, 252, 134);
+}
+
+
+
