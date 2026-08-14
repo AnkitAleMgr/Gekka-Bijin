@@ -481,7 +481,7 @@ nav{
 
 .caroscel-circle {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 100px;
     flex: 0 0 40px;
     background: white;
@@ -1154,6 +1154,11 @@ footer{
 .color-rating-container{
     display: flex;
     width: 100%;
+    padding: 0px 10px;
+}
+
+.color-icon-container{ 
+    flex: 1;
 }
 
 .color-icon-container > img{
@@ -1164,10 +1169,12 @@ footer{
     display: flex;
     flex: 1;
     height: auto;
+    gap: 2px;
+
 }
 .star-icon-container > img{
-    width: 18px;
-    height: auto;
+    width: 12px;
+    aspect-ratio: 1/1;
 }
 
 
