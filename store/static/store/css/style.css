@@ -1067,6 +1067,7 @@ footer{
     width: stretch;
     /* height: 400px; */
     min-height: 400px;
+    height: fit-content;
     padding: 10px;
     flex-direction: column;
     align-items: flex-start;
@@ -1078,12 +1079,13 @@ footer{
 .product-scroll-container{
     width: stretch;
     height: fit-content;
-    background-color: rgb(177, 251, 65);
+    background-color: rgb(65, 142, 251);
 }
 
 .product-clip-container{
     display: flex;
     padding-top: 24px;
+    height: fit-content;
     flex-direction: column;
     gap: 11px;
     align-self: stretch;
@@ -1092,64 +1094,85 @@ footer{
 
 .individual-product-card-container{
     display: flex;
-    width: 180px;
+    width: 230px;
     padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     
     background-color: white;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .individual-product-card-container > img{
     display: flex;
-    width: 140px;
-    height: 186px;
+    width: 180px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     aspect-ratio: 70/93;
 }
 
-.individual-product-card-container p:nth-child(2){
-    font-size: 8px;
+.product-brand-name{
+    font-size: 13px;
     opacity: 60%;
 }
+
+
 .individual-product-card-container p:nth-child(3){
-    font-size: 12px;
+    font-size: 18px;
 }
 
-/* 
-.price-quantity-container{
-    display: flex;
-}
 .price-container{
+    padding: 0 10px;
     display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: end;
 }
 .price-container p{
-    text-align: end;
+    /* text-align: end; */
     padding: 0px;
     margin: 0px;
-    font-size: 10px;
+    width: fit-content;
+    font-size: 12px;
     white-space: nowrap;
 }
-.price-container p:nth-child(3){
-    font-size: 6px;
-    text-decoration: dashed;
+.price-container p:nth-child(2){
+    font-size: 14px;
+    color: black;
+    opacity: 100%;
 }
+.price-container p:nth-child(3){
+    font-size: 12px;
+    color: gray;
+    text-decoration:line-through;
+}
+
+
 
 .available-container{
     display: flex;
+    padding: 0 10px;
+    width: 100%;
+    justify-content: start;
+    align-items: end;
 }
 .available-container p{
     white-space: nowrap;
     padding: 0px;
     margin: 0px;
-    font-size: 8px;
+    font-size: 12px;
+    opacity: 100%;
+    /* align-items: end; */
 }
- */
+/* .available-container p:nth-child(2){
+    font-size: 12px;
+    opacity: 100%;
+} */
+
 
 .color-rating-container{
     display: flex;
