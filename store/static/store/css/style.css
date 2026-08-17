@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: bai;
     font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     color: black;
     box-sizing: border-box;
@@ -30,6 +35,14 @@ body {
     /* overscroll-behavior: none; */
 
     position: relative;
+}
+
+.semi-1-title{
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .semi-2-title{
@@ -64,6 +77,7 @@ body {
 
 .normal-paragraph{
     font-size: 16px;
+    font-family:
     font-style: normal;
     font-weight: 5600;
     line-height: normal;
@@ -1214,4 +1228,30 @@ footer{
     gap: 10px;
     flex: 1 0 0;
     border-radius: 4px;
+}
+
+
+#about-us-hero-section{
+    background-color: green;
+    /* margin: 64px; */
+    width: 100%;
+
+    display: flex;
+    height: 500px;
+    padding: 0 116px;
+    align-items: center;
+    gap: 55px;
+    align-self: stretch;
+}
+
+#about-us-hero-section > *{
+    flex: 1;
+    height: stretch;
+}
+
+.about-us-hero-section-1{
+    background-color: rgb(1, 157, 1);
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
 }
