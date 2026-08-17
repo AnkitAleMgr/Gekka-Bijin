@@ -77,7 +77,6 @@ body {
 
 .normal-paragraph{
     font-size: 16px;
-    font-family:
     font-style: normal;
     font-weight: 5600;
     line-height: normal;
@@ -117,6 +116,8 @@ body {
     gap: 10px;
     line-height: 1;
 
+
+    white-space: nowrap;
     cursor: pointer;
 }
 
@@ -132,6 +133,72 @@ body {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.70);
 }
+
+.information-board{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 20px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.information-board > *{
+    justify-content: center;
+
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.information-board p:nth-child(1){
+    color: rgba(239, 191, 4, 0.94);
+    font-size: 20px;
+}
+
+.dot-pattern {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+    background-color: #DE3163;
+}
+
+
+
 
 #fix-popup-window{
     display: flex;
@@ -281,6 +348,7 @@ nav{
     align-items: center;
     height: 54px;
     width: auto;
+    white-space: nowrap;
 }
 
 .borderless-button{
@@ -1232,12 +1300,11 @@ footer{
 
 
 #about-us-hero-section{
-    background-color: green;
-    /* margin: 64px; */
+    margin-top: 64px;
     width: 100%;
 
     display: flex;
-    height: 500px;
+    height: 400px;
     padding: 0 116px;
     align-items: center;
     gap: 55px;
@@ -1245,13 +1312,69 @@ footer{
 }
 
 #about-us-hero-section > *{
-    flex: 1;
+    /* flex: 1; */
     height: stretch;
 }
 
 .about-us-hero-section-1{
-    background-color: rgb(1, 157, 1);
+    flex: 1;
     display: flex;
+    justify-content: center;
     gap: 16px;
     flex-direction: column;
+}
+
+.about-us-hero-section-1 div{
+    display: flex;
+    gap: 12px;
+}
+
+.about-us-hero-section-2{
+    position: relative;
+    width: 514px;
+}
+
+.about-us-hero-section-2 img{
+    position: absolute;
+}
+
+.about-us-hero-section-2 > img:nth-child(1){
+    width: 347px;
+    height: 304px;
+    top: 0;
+    left: 0;
+}
+
+.about-us-hero-section-2 > img:nth-child(2){
+    width: 266px;
+    height: 203px;
+    bottom: 0;
+    right: 0;
+}
+
+.about-us-hero-section-2 > div:nth-child(3){
+    position: absolute;
+    top: 260px;
+    right: 200px;
+}
+
+.about-us-hero-section-2 > div:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+
+.about-us-hero-section-2 > div:nth-child(5){
+    position: absolute;
+    top: 70px;
+    right: 00px;
+}
+.about-us-hero-section-2 > div:nth-child(6){
+    position: absolute;
+    top: 10px;
+    right: 53px;
+}
+
+.about-us-hero-section-2 > div:is(:nth-child(5), :nth-child(6)) > div > div {
+    background-color: rgba(255, 127, 80, 0.94);
 }
