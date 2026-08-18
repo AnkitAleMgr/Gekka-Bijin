@@ -1332,6 +1332,7 @@ footer{
 .about-us-hero-section-2{
     position: relative;
     width: 514px;
+    /* flex: 1; */
 }
 
 .about-us-hero-section-2 img{
@@ -1339,7 +1340,7 @@ footer{
 }
 
 .about-us-hero-section-2 > img:nth-child(1){
-    width: 347px;
+    width: 350px;
     height: 304px;
     top: 0;
     left: 0;
@@ -1378,3 +1379,58 @@ footer{
 .about-us-hero-section-2 > div:is(:nth-child(5), :nth-child(6)) > div > div {
     background-color: rgba(255, 127, 80, 0.94);
 }
+
+
+#why-us-section{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    padding: 0px 116px;
+    gap: 55px;
+
+    background-color: green;
+}
+
+#why-us-section > *{
+    display: flex;
+    height: 100%;
+}
+
+.why-us-section-1{
+    background-color: rgb(1, 153, 1);
+    flex: 1;
+}
+
+.why-us-section-2{
+    background-color: rgb(1, 153, 1);
+    width: 514px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.why-us-links{
+    padding: 0px 12px;
+    
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    justify-content: space-between;
+    background-color: rgb(3, 176, 3);
+}
+.why-us-links > div:is(:nth-child(1), :nth-child(2)){
+    background-color: rgb(3, 206, 3);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.why-us-link-column > a{
+    display: block;
+    text-decoration: none;
+
+}
+
