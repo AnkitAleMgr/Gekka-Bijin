@@ -1541,4 +1541,36 @@ footer{
 
 }
 
+#review-section{
+    width: 100%;
+    padding: 0px 116px;
+    height: 500px;
+    display: flex;
+    flex: row;
+    gap: 55px;
 
+    background-color: green;
+}
+.review-section-1{
+    flex: 1;
+    background-color: rgb(1, 155, 1);
+}
+.review-section-2{
+    width: 514px;
+    background-color: rgb(1, 155, 1);
+}
+.review-section-1-header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: fit-content;
+}
+.review-section-1-header > p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.review-section-1-header > p:nth-child(1){
+    font-size: 14px;
+    opacity: 60%;
+}
