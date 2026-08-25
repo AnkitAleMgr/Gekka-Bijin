@@ -94,6 +94,7 @@ body {
     padding: 8px 18px;
     border-radius: 10px;
     text-align: center;
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -113,6 +114,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     gap: 10px;
     line-height: 1;
 
@@ -139,7 +141,7 @@ body {
     color: black;
     display: flex;
     flex-direction: column;
-    padding: 6px 20px;
+    padding: 10px 24px;
     width: fit-content;
     height: fit-content;
     justify-content: center;
@@ -232,6 +234,27 @@ p{
     letter-spacing: 1.2px;
     opacity: 60%;
 }
+.super-h1{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.04px;
+}
+h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.l-h3{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 #fix-popup-window{
     display: flex;
@@ -345,7 +368,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    /* gap: 8px; */
 }
 
 /* logo section */
@@ -399,7 +422,7 @@ nav{
 
 /* search bar section */
 #search-bar-container{
-    width: 400px;
+    width: 450px;
     height: 30px;
     display: flex;
     padding: 8px 16px;
@@ -1784,6 +1807,36 @@ footer{
     left: 40px;
 }
 
+
+#contact-us-hero-section{
+    display: flex;
+    flex-direction: row;
+    gap: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 116px;
+
+    background-color: green;
+    height: 500px;
+}
+#contact-us-hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+}
+
+#contact-us-hero-content > div{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+#contact-us-hero-section > img{
+    height: 280px;
+    width: 280px;
+    flex: 1 0 0;
+    /* aspect-ratio: 1/1; */
+}
 
 ----------------------------------------------------------------------------------------------------
 .test-c{
