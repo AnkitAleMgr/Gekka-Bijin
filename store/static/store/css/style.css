@@ -170,6 +170,7 @@ body {
 }
 
 .dot-pattern {
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -768,11 +769,9 @@ nav{
 
 .individual-variety-container > div,p{
     display: flex;
-    padding: 0 10px;
     align-items: center;
     gap: 16px;
     width: 100%;
-    padding: 0px 10px;
     gap: 32px;
 }
 
@@ -1576,15 +1575,12 @@ footer{
 #review-section{
     width: 100%;
     padding: 0px 116px;
-    height: 500px;
     display: flex;
     flex-direction: column;
-    gap: 55px;
-
-    background-color: green;
+    gap: 28px;
+    margin-top: 64px;
 }
 #review-section-1-header{
-    background-color: rgb(1, 157, 1);
     padding: 24px 0px;
     gap: 4px;
 }
@@ -1597,10 +1593,10 @@ footer{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    /* gap: 28px; */
 }
 
 #review-section-2-review{
-    background-color: rgb(67, 245, 67);
     width: 600px;
 
     display: flex;
@@ -1703,16 +1699,90 @@ footer{
 .icon-container > i{
     font-size: 14px;
 }
-
-
-
-
 #review-section-2-image{
-    background-color: rgb(39, 210, 39);
+    width: 550px;
+    height: 470px;
+    position: relative;
     width: 550px;
 }
 
+#review-section-2-image > img:nth-child(1){
+    position: absolute;
+    width: 220.161px;
+    height: 414.061px;
+    transform: rotate(-5.143deg);
+    aspect-ratio: 42/79;
+    top: 20px;
+    left: 70px;
+    z-index: 1000;
 
+
+    border-radius: 12px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+#review-section-2-image > img:nth-child(2){
+    position: absolute;
+    width: 222.123px;
+    height: 410.84px;
+    transform: rotate(19.482deg);
+    aspect-ratio: 113/209;
+    top: 20px;
+    right: 70px;
+    z-index: 999;
+
+    border-radius: 12px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+#review-section-2-image > div:nth-child(3){
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    transform: rotate(-4.866deg);
+}
+#review-section-2-image > div:nth-child(3) > div > div{
+    background-color: #A00;;
+}
+#review-section-2-image > div:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    left: 140px;
+}
+#review-section-2-image > div:nth-child(4) > div > div{
+    background-color: rgba(255, 80, 197, 0.94);;
+}
+#review-section-2-image > div:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    left: 140px;
+}
+#review-section-2-image > div:nth-child(4) > div > div{
+    background-color: rgba(255, 80, 197, 0.94);;
+}
+#review-section-2-image > div:nth-child(5){
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    transform: rotate(-8.02deg);
+}
+#review-section-2-image > div:nth-child(5) > div > div{
+    background-color: rgba(239, 191, 4, 0.94);
+}
+#review-section-2-image > div:nth-child(6){
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(10.509deg);
+}
+#review-section-2-image > div:nth-child(6) > div > div{
+    background-color: #8A38F5;
+}
+#review-section-2-image > div:nth-child(7){
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+}
 
 
 ----------------------------------------------------------------------------------------------------
@@ -1726,9 +1796,7 @@ footer{
     display: flex;
     
 }
-
 .test-p{
     text-align: right;
     width: fit-content;
-    
 }
