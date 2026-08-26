@@ -1937,6 +1937,17 @@ footer{
     padding-top: 64px;
 }
 
+#product-detail-section{
+    display: flex;
+    padding: 44px 204px 44px 204px;
+    justify-content: center;
+    align-items: center;
+    gap: 152px;
+    align-self: stretch;
+    
+    background-color: green;
+}
+
 
 ----------------------------------------------------------------------------------------------------
 .test-c{
