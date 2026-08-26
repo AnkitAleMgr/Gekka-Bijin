@@ -1948,6 +1948,20 @@ footer{
     background-color: green;
 }
 
+#product-image-container{
+    flex: 1;
+    background-color: rgb(3, 166, 3);
+}
+#product-main-image-container{
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+}
+
+#product-detail-container{
+    flex: 1;
+    background-color: rgb(7, 175, 7);
+}
 
 ----------------------------------------------------------------------------------------------------
 .test-c{
