@@ -363,7 +363,8 @@ nav{
 #navigation-container{
     font-size: 14px;
     font-weight: 500;
-    width: 1208px;
+    width: 100%;
+    padding: 0px 116px;
     height: 54px;
     display: flex;
     align-items: center;
@@ -1844,7 +1845,7 @@ footer{
     padding: 64px 116px;
     align-items: flex-start;
     /* justify-content: center; */
-    gap: 24px;
+    gap: 32px;
 }
 #form-section-content{
     flex: 1 1 50%;
@@ -1908,7 +1909,7 @@ footer{
 #form-section-input > input, #form-section-input > div:nth-child(2) input{
     display: flex;
     /* flex: 1; */
-    height: 35px;
+    height: 45px;
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
