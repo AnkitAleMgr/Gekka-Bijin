@@ -1812,17 +1812,16 @@ footer{
     display: flex;
     flex-direction: row;
     gap: auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 116px;
 
-    background-color: green;
     height: 500px;
 }
 #contact-us-hero-content{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
     justify-content: center;
 }
 
@@ -1830,11 +1829,12 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 14px;
+    padding-top: 8px;
 }
 #contact-us-hero-section > img{
     height: 280px;
     width: 280px;
-    flex: 1 0 0;
+    /* flex: 1 0 0; */
     /* aspect-ratio: 1/1; */
 }
 
