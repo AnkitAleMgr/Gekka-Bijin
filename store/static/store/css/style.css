@@ -131,6 +131,7 @@ body {
     color: black;
     letter-spacing: 1.28px;
 
+    background-color: white;
     border: none;
 }
 
@@ -963,12 +964,13 @@ img{
 footer{
     display: flex;
     width: 100%;
-    padding: 64px 0;
+    padding: 64px 0 54px 0;
     flex-direction: column;
     gap: 64px;
     justify-content: center;
     align-items: center;
     margin-top: 72px;
+
 
     background: #EFEFEF;
 }
@@ -1027,6 +1029,7 @@ footer{
     padding: 40px;
     flex-direction: column;
     gap: 64px;
+    margin-bottom: 12px;
 
     border-radius: 20px;
     background: #FFF;
@@ -1752,6 +1755,7 @@ footer{
 .individual-review-card-footer div:nth-child(1){
     display: flex;
     height: 24px;
+    gap: 12px;
 }
 .icon-container{
     display: flex;
@@ -1980,7 +1984,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 64px;
+    padding-top: 74px;
 }
 
 #product-detail-section{
@@ -2155,7 +2159,6 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 18px;
-    background-color: green;
 }
 #individual-product-description{
     padding: 32px 0px;
@@ -2180,6 +2183,18 @@ footer{
 #individual-product-review > div{
     width: calc(50% - 6px);
 }
+
+#individual-related-product-section{
+    padding: 64px 116px 0px 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #individual-related-product-section > p{
+    width: fit-content;
+} */
 
 ----------------------------------------------------------------------------------------------------
 .test-c{
