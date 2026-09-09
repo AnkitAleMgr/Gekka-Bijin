@@ -308,6 +308,16 @@ h4{
     line-height: 21px;
     letter-spacing: 1.44px;
 }
+.s-bolt-h4{
+    color: #000;
+
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 1.44px;
+}
 
 
 #fix-popup-window{
@@ -2422,5 +2432,196 @@ footer{
     background-color: white;
 }
 
+#cart-coupons-gifts-price-container{
+    display: flex;
+    width: 430px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+
+    background-color: rgb(1, 163, 1);
+}
+
+#cart-coupons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+#cart-coupons-drop-down{
+    display: flex;
+    width: 430px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+#cart-coupons-drop-down-title{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#cart-gift-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+#cart-gift-card{
+    display: flex;
+    position: relative;
+    padding: 20px 121px 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+
+    overflow: hidden;
+    border-radius: 8px;
+    background: #d0b0ff;
+}
+
+#cart-gift-card > div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#cart-gift-card > p{
+    color: #7B61E0;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.36px;
+}
+
+/* #cart-gift-card > img:not(#gift-rebbon-icon){
+    position: absolute;
+} */
+
+#card-gift-container-raper-fix{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    height: 100%;
+    width: 10px;
+    
+    z-index: 1001;
+    background: #977efb;
+}
+
+#gift-rebbon-icon{
+    position: absolute;
+    width: 70px;
+    height: 44px;
+    top: 0px;
+    right: 18px;
+
+    z-index: 1002;
+}
+#gift-card-flower-1{
+    width: 70px;
+    height: 70px;
+    transform: rotate(6.862deg);
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 170px;
+    bottom: -30px;
+    z-index: 1500;
+}
+#gift-card-flower-2{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 135px;
+    bottom: -10px;
+    z-index: 1501;
+}
+#gift-card-flower-3{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 110px;
+    bottom: -20px;
+    z-index: 1503;
+}
+#gift-card-flower-4{
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 85px;
+    bottom: -20px;
+    z-index: 1502;
+}
+#gift-card-flower-5{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 45px;
+    bottom: -10px;
+    z-index: 1504;
+}
+#gift-card-flower-6{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: 15px;
+    bottom: -7px;
+    z-index: 1505;
+}
+#gift-card-flower-7{
+    width: 70px;
+    height: 70px;
+    transform: rotate(-6.46deg);
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: -12.716px;
+    bottom: -14.716px;
+}
+#gift-card-flower-8{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    right: -35px;
+    bottom: -30px;
+}
+
+#cart-price-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
 
 ----------------------------------------------------------------------------------------------------
