@@ -291,6 +291,14 @@ h1{
     line-height: normal;
     letter-spacing: 7.04px;
 }
+h2{
+    color: #000;
+    font-family: "Bai Jamjuree";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 h3{
     font-size: 20px;
     font-style: normal;
@@ -2277,7 +2285,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 36px;
+    gap: 16px;
     align-self: stretch;
 
     border-radius: 12px;
@@ -2290,20 +2298,8 @@ footer{
     padding: 18px;
 }
 
-#cart-product-list-container > .individual-product-cart:not(:last-child)::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 6px;
-    background: #ee0000;
 
-
-}
-
-
-#cart-product-list-container > .individual-product-cart:not(:last-child)::after {
+/* #cart-product-list-container > .individual-product-cart:not(:last-child)::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2311,7 +2307,7 @@ footer{
     width: 100%;
     height: 1px;
     background: #ccc;
-}
+} */
 
 .individual-product-cart{
     position: relative;
@@ -2421,8 +2417,8 @@ footer{
 
 .individual-product-cart> input{
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 24px;
+    left: 24px;
     z-index: 10001;
 
     border: 1px solid black;
