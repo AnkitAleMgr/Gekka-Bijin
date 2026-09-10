@@ -2653,4 +2653,58 @@ footer{
     color: white;
     font-size: 20px;
 }
+
+#address-detail-container{
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+#address-detail-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+#address-detail-name-input-row , #address-detail-phone-no-input-contianer,
+#address-detail-province-district-input-contiainer,
+#address-detail-address-input-contianer,
+#address-detail-email-input-contianer, #address-detail-additional-info-input-contianer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+#address-detail-additional-info-input-contianer{
+    
+}
+
+#address-detail-container input{
+    display: flex;
+    height: 35px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+#address-detail-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
 ----------------------------------------------------------------------------------------------------
