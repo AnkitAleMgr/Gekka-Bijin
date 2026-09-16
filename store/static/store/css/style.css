@@ -123,6 +123,26 @@ body {
     cursor: pointer;
 }
 
+.yellow-button{
+    background-color: var(--main-black);
+    border: var(--main-black) 1px solid;
+    background: #FFCB00;
+    height: 34px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    line-height: 1;
+
+
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    background: #FFCB00;
+}
+
 .tab-button{
     display: flex;
     padding: 8px 18px;
@@ -2684,7 +2704,7 @@ footer{
     
 }
 
-#address-detail-container input{
+#address-detail-container input,textarea{
     display: flex;
     height: 35px;
     padding: 8px 16px;
@@ -2705,6 +2725,24 @@ footer{
     align-items: flex-start;
     gap: 20px;
     align-self: stretch;
+}
+
+#address-detail-additional-info-input-contianer {
+    display: flex;
+}
+
+#address-detail-additional-info-input-contianer textarea{
+    flex: 1;
+    height: 100px;
+}
+#address-detail-button-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+#address-detail-button-container > button{
+    padding: 12px 44px;
+    height: fit-content;
 }
 
 ----------------------------------------------------------------------------------------------------
